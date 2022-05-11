@@ -1,10 +1,10 @@
-import { DarkMode } from "./components/DarkMode/DarkMode";
 import { Widget } from "./components/Feedget/Widget";
+import { Header } from "./components/Header/Header";
 
 export function App() {
   return (
-    <>
-      <DarkMode/>
+    <> 
+      <Header/>
       <Widget />
     </>
   );
